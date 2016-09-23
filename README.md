@@ -9,7 +9,8 @@ Shy~~
 TO do:
 ```
 sudo apt-get install libcurl4-openssl-dev zip  
-wget --no-check-certificate https://codeload.github.com/blueardour/git/zip/master -o master.zip
+wget --no-check-certificate https://codeload.github.com/blueardour/git/zip/master
+unzip master
 cd git-master
 tar xvf git-1.8.5.3.tar.gz
 cd git-1.8.5.3
